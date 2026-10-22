@@ -65,5 +65,5 @@ window.SITE_CONFIG = {
   formEndpoint: "",
 
   // ---- SEO / sharing -------------------------------------------------
-  siteUrl: "[YOUR WEBSITE URL]", // e.g. "https://your-handle.github.io/portfolio/"
+  siteUrl: "https://sharikali.github.io/portfolio/", // e.g. "https://your-handle.github.io/portfolio/"
 };
