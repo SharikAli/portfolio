@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO: replace [YOUR NAME] here too (search engines read this before JavaScript runs) -->
+  <title>SHARIK ALI | Mobile Application Engineer — Android, iOS, Flutter &amp; Backend</title>
+  <meta name="description" content="Senior Mobile Application Engineer with 5+ years building production Android, iOS, Flutter and Kotlin Multiplatform apps for startups and businesses — Kotlin, Swift, Dart and Spring Boot.">
+  <meta name="author" content="[YOUR NAME]">
+  <meta name="theme-color" content="#0b1020">
+  <!-- After publishing, set your real URL: -->
+  <!-- <link rel="canonical" href="https://your-handle.github.io/portfolio/"> -->
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="[YOUR NAME] | Mobile Application Engineer">
+  <meta property="og:description" content="Android, iOS, Flutter & backend development — secure, scalable, high-quality mobile apps from idea to App Store and Google Play.">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <!-- <meta property="og:url" content="https://your-handle.github.io/portfolio/"> -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- No favicon. To add one, put it in assets/icons/ and link it here, e.g.
+       <link rel="icon" href="assets/icons/favicon.png" type="image/png"> -->
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Apply saved / system theme before paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#home" aria-label="Home">
+        <span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="logo-text" data-cfg="shortName">[YOUR FIRST NAME]</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a class="btn btn-ghost btn-sm" data-link="resume" href="#" download hidden>
+            <svg class="i" aria-hidden="true"><use href="#i-download"/></svg> CV
+          </a>
+          <a class="btn btn-primary btn-sm" href="#contact">Let's Talk</a>
+        </div>
+      </div>
+
+      <button class="theme-toggle" type="button" aria-label="Switch to light theme">
+        <svg class="i i-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="i i-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> <span data-cfg="availability">Available for full-time roles &amp; freelance projects</span></p>
+          <h1 id="hero-title">Building <span class="grad">Secure, Scalable</span> Mobile Experiences.</h1>
+          <p class="lead">
+            <strong data-cfg="fullName">[YOUR FULL NAME]</strong> — Mobile Application Engineer specializing in
+            Android, Kotlin Multiplatform, iOS, Flutter and backend development. I build secure, high-performance apps from first release through long-term maintenance.
+          </p>
+
+          <ul class="hero-stats" aria-label="Experience summary">
+            <li><strong data-cfg="yearsMobile">5+</strong><span>years building mobile apps</span></li>
+            <li><strong data-cfg="appsPublished">14+</strong><span>apps published &amp; maintained</span></li>
+            <li><strong>4</strong><span>live production apps featured below</span></li>
+          </ul>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-outline" href="#contact">Contact Me</a>
+            <a class="btn btn-ghost" data-link="resume" href="#" download hidden>
+              <svg class="i" aria-hidden="true"><use href="#i-download"/></svg> Download CV
+            </a>
+          </div>
+
+          <div class="hero-social">
+            <a class="icon-btn" data-link="github" href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" hidden>
+              <svg class="i" aria-hidden="true"><use href="#i-github"/></svg>
+            </a>
+            <a class="icon-btn" data-link="linkedin" href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" hidden>
+              <svg class="i" aria-hidden="true"><use href="#i-linkedin"/></svg>
+            </a>
+            <ul class="tech-badges" aria-label="Core technologies">
+              <li>Kotlin</li><li>Swift</li><li>Flutter</li><li>KMP</li><li>Spring Boot</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="laptop">
+            <div class="laptop-screen">
+              <div class="lp-bar"><i></i><i></i><i></i><span>Dashboard</span></div>
+              <div class="lp-app">
+                <div class="lp-side"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="lp-main">
+                  <div class="lp-head"><span>Good morning</span><span class="ps-avatar"></span></div>
+                  <div class="lp-cards">
+                    <div class="lp-balance">
+                      <span class="ps-label">Available balance</span>
+                      <span class="lp-amount">PKR ••••••</span>
+                    </div>
+                    <div class="lp-stat"><b></b><em></em></div>
+                    <div class="lp-stat"><b></b><em></em></div>
+                  </div>
+                  <div class="lp-actions"><span><i></i>Transfer</span><span><i></i>Raast</span><span><i></i>QR Pay</span><span><i></i>Bills</span></div>
+                  <div class="lp-chart"><i style="height:40%"></i><i style="height:65%"></i><i style="height:50%"></i><i style="height:80%"></i><i style="height:60%"></i><i style="height:90%"></i><i style="height:70%"></i><i style="height:55%"></i><i style="height:75%"></i><i style="height:95%"></i></div>
+                  <div class="ps-list lp-list">
+                    <div><i></i><b></b><em></em></div>
+                    <div><i></i><b></b><em></em></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+          <div class="phone">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="ps-top"><span class="ps-hello">Good morning</span><span class="ps-avatar"></span></div>
+              <div class="ps-card">
+                <span class="ps-label">Available balance</span>
+                <span class="ps-amount">PKR ••••••</span>
+                <span class="ps-chip"></span>
+              </div>
+              <div class="ps-actions">
+                <span><i></i>Transfer</span><span><i></i>Raast</span><span><i></i>QR Pay</span><span><i></i>Bills</span>
+              </div>
+              <div class="ps-list">
+                <div><i></i><b></b><em></em></div>
+                <div><i></i><b></b><em></em></div>
+                <div><i></i><b></b><em></em></div>
+              </div>
+            </div>
+          </div>
+          <div class="float-chip fc-1"><svg class="i"><use href="#i-shield"/></svg> Biometric login</div>
+          <div class="float-chip fc-2"><svg class="i"><use href="#i-bolt"/></svg> Real-time updates</div>
+          <div class="float-chip fc-3"><svg class="i"><use href="#i-bell"/></svg> Push notifications</div>
+          <div class="float-chip fc-4"><svg class="i"><use href="#i-sync"/></svg> Offline sync</div>
+          <div class="float-chip fc-5"><svg class="i"><use href="#i-layers"/></svg> Clean architecture</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <p class="kicker">About me</p>
+          <h2 id="about-title">Mobile engineer who takes products from planning to production.</h2>
+          <div class="prose">
+            <p>
+              I'm a Mobile Application Engineer with <strong><span data-cfg="yearsMobile">5+</span> years</strong> of experience
+              building production-grade native Android, iOS and cross-platform apps with Flutter and Kotlin Multiplatform.
+              I've worked on consumer apps, freelance products and personal projects, as well as <strong>large-scale banking
+              apps</strong> with real-time payments and strict security requirements. That experience carries over to any
+              product where reliability matters, from chat and booking apps to e-commerce and on-demand services.
+            </p>
+            <p>
+              I care about clean architecture, offline-first design and reliable API integration. I'm comfortable owning a
+              module end-to-end — from technical decisions and UI implementation through testing, store release and
+              production support — and working directly with clients and stakeholders to turn requirements into shipped features.
+            </p>
+            <p>
+              Alongside mobile work, I've been building backend skills in <strong>Java, Kotlin, Spring Boot and Ktor</strong>
+              through courses and personal projects, so I understand both sides of the APIs my apps depend on.
+            </p>
+            <p>
+              I work closely with designers, backend engineers, QA and product teams, with a steady focus on
+              security, performance, reliability and maintainable code.
+            </p>
+          </div>
+        </div>
+
+        <aside class="about-card" aria-label="Quick facts">
+          <!-- Shown only when "photo" is set in js/config.js -->
+          <div class="about-photo" data-photo hidden></div>
+          <dl class="facts">
+            <div><dt>Name</dt><dd data-cfg="fullName">[YOUR FULL NAME]</dd></div>
+            <div><dt>Role</dt><dd data-cfg="title">Senior Mobile Application Engineer</dd></div>
+            <div><dt>Location</dt><dd data-cfg="location">[YOUR CITY, COUNTRY]</dd></div>
+            <div><dt>Email</dt><dd data-cfg="email">[YOUR EMAIL]</dd></div>
+            <div><dt>Availability</dt><dd data-cfg="availability">Available for full-time roles &amp; freelance projects</dd></div>
+          </dl>
+          <h3 class="mini-title">Education</h3>
+          <ul class="edu-list" id="education-list"></ul>
+          <h3 class="mini-title">Courses completed</h3>
+          <ul class="edu-list" id="courses-list"></ul>
+          <ul class="focus-tags" aria-label="Focus areas">
+            <li>Android</li><li>iOS</li><li>Flutter</li><li>KMP</li><li>Firebase</li><li>Spring Boot</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Skills</p>
+          <h2 id="skills-title">Technology stack</h2>
+          <p>Grouped by area, with a level on each skill.</p>
+          <ul class="legend" aria-label="Skill level legend">
+            <li><span class="lvl lvl-core"></span> Core — daily production work</li>
+            <li><span class="lvl lvl-proficient"></span> Proficient</li>
+            <li><span class="lvl lvl-familiar"></span> Familiar / learning</li>
+          </ul>
+        </div>
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Experience</p>
+          <h2 id="exp-title">Career timeline</h2>
+        </div>
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="section stats-section" aria-labelledby="stats-title">
+      <div class="container">
+        <h2 id="stats-title" class="center">Building and Maintaining Production Mobile Applications</h2>
+        <ul class="stats">
+          <li><strong class="count" data-cfg="appsPublished">14+</strong><span>apps published &amp; maintained</span></li>
+          <li><strong class="count" data-cfg="yearsMobile">5+</strong><span>years of mobile development</span></li>
+          <li><strong class="count" id="stat-banking">4</strong><span>featured apps live on Google Play &amp; the App Store</span></li>
+          <li><strong>3</strong><span>stacks: native Android, native iOS &amp; cross-platform</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Projects</p>
+          <h2 id="projects-title">Published apps</h2>
+          <p>
+            Production apps I contributed to as part of the engineering teams. The apps belong to their owners.
+            Each card lists what I worked on. Store figures describe the app as a whole.
+          </p>
+        </div>
+        <div class="apps-grid" id="apps-grid"></div>
+        <p class="fine-print" id="stats-note"></p>
+
+        <h3 class="sub-head">Key features &amp; other projects</h3>
+        <div class="work-grid" id="work-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section-alt" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Services</p>
+          <h2 id="services-title">How I can help</h2>
+          <p>Scope differs from project to project. We'll agree the details before work starts.</p>
+        </div>
+        <div class="services-grid" id="services-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCT TYPES ============ -->
+    <section class="section" id="products" aria-labelledby="products-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">What we can build</p>
+          <h2 id="products-title">Products I Can Help You Build</h2>
+          <p>Kinds of apps I can help design and develop. This is not a list of past projects.</p>
+        </div>
+        <div class="products-grid" id="products-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section section-alt" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Process</p>
+          <h2 id="process-title">How I deliver</h2>
+        </div>
+        <ol class="process" id="process-list"></ol>
+      </div>
+    </section>
+
+    <!-- ============ WHY ============ -->
+    <section class="section" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Why work with me</p>
+          <h2 id="why-title">What you can expect</h2>
+        </div>
+        <div class="why-grid" id="why-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="kicker">Contact</p>
+          <h2 id="contact-title">Have an App Idea or Need Help With an Existing Product?</h2>
+          <p>Let's discuss your app idea, mobile application, backend integration, or ongoing development requirements.</p>
+
+          <ul class="contact-list">
+            <li>
+              <svg class="i" aria-hidden="true"><use href="#i-mail"/></svg>
+              <span data-cfg="email">[YOUR EMAIL]</span>
+              <button class="btn btn-ghost btn-xs" type="button" id="copy-email">Copy</button>
+              <span class="copy-status" role="status" aria-live="polite"></span>
+            </li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg><span data-cfg="phone">[YOUR PHONE]</span></li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg><span data-cfg="location">[YOUR CITY, COUNTRY]</span></li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg><span>Preferred: <span data-cfg="preferredContact">[EMAIL / LINKEDIN / WHATSAPP]</span></span></li>
+          </ul>
+
+          <div class="contact-buttons">
+            <a class="btn btn-outline btn-sm" data-link="linkedin" href="#" target="_blank" rel="noopener noreferrer" hidden>
+              <svg class="i" aria-hidden="true"><use href="#i-linkedin"/></svg> LinkedIn
+            </a>
+            <a class="btn btn-outline btn-sm" data-link="github" href="#" target="_blank" rel="noopener noreferrer" hidden>
+              <svg class="i" aria-hidden="true"><use href="#i-github"/></svg> GitHub
+            </a>
+            <a class="btn btn-outline btn-sm" data-link="whatsapp" href="#" target="_blank" rel="noopener noreferrer" hidden>
+              <svg class="i" aria-hidden="true"><use href="#i-chat"/></svg> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="cf-subject">Subject</label>
+            <input id="cf-subject" name="subject" type="text" required>
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" required></textarea>
+          </div>
+          <!-- Spam trap (hidden from people, bots fill it) -->
+          <div class="hp" aria-hidden="true"><label>Leave empty <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-primary" type="submit" id="cf-submit">Send message</button>
+          <p class="form-note" id="form-note"></p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-name" data-cfg="fullName">[YOUR FULL NAME]</p>
+        <p class="muted" data-cfg="title">Mobile Application Engineer</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <a class="icon-btn" data-link="github" href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" hidden>
+          <svg class="i" aria-hidden="true"><use href="#i-github"/></svg>
+        </a>
+        <a class="icon-btn" data-link="linkedin" href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" hidden>
+          <svg class="i" aria-hidden="true"><use href="#i-linkedin"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="muted">© <span id="year">2026</span> <span data-cfg="fullName">[YOUR FULL NAME]</span>. All rights reserved. App names and logos belong to their respective owners.</p>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#top" aria-label="Back to top">
+    <svg class="i" aria-hidden="true"><use href="#i-up"/></svg>
+  </a>
+
+  <noscript>
+    <p class="noscript">Turn on JavaScript to see skills, projects and services. Contact details are shown above.</p>
+  </noscript>
+
+  <!-- Icon sprite used by the static markup above -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4l1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 2a2 2 0 110 4 2 2 0 010-4z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.7a2 2 0 01-.5 2.1L8 9.8a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.7.7a2 2 0 011.7 2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.6 7.1L3 21l1.9-6.4A8 8 0 1121 12z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 8a6 6 0 1112 0c0 7 3 9 3 9H3s3-2 3-9M10 21h4"/></symbol>
+    <symbol id="i-sync" viewBox="0 0 24 24"><path d="M21 12a9 9 0 01-15.5 6.2L3 16M3 12A9 9 0 0118.5 5.8L21 8M21 3v5h-5M3 21v-5h5"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 2l10 5-10 5L2 7l10-5z"/><path d="M2 12l10 5 10-5M2 17l10 5 10-5"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5m0 0l-6 6m6-6l6 6"/></symbol>
+  </svg>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
