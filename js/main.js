@@ -204,7 +204,7 @@
         stats = '<div class="store-stats">' +
           (s.playRating ? '<div class="store-stat"><div class="ss-platform">Google Play</div>' +
             '<div class="ss-rating"><span class="star" aria-hidden="true">★</span>' + esc(s.playRating) + '<span class="sr-only"> out of 5</span></div>' +
-            '<div class="ss-sub">' + (s.playReviews ? esc(s.playReviews) + " reviews" : "") + (s.playDownloads ? " · " + esc(s.playDownloads) + " downloads" : "") + "</div></div>" : "") +
+            '<div class="ss-sub">' + (s.playReviews ? esc(s.playReviews) + " reviews" : "") + (s.playDownloads ? esc(s.playDownloads) + " downloads" : "") + "</div></div>" : "") +
           (s.iosRating ? '<div class="store-stat"><div class="ss-platform">App Store</div>' +
             '<div class="ss-rating"><span class="star" aria-hidden="true">★</span>' + esc(s.iosRating) + '<span class="sr-only"> out of 5</span></div>' +
             '<div class="ss-sub">' + (s.iosRatings ? esc(s.iosRatings) + " ratings" : "") + "</div></div>" : "") +

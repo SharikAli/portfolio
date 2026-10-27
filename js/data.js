@@ -170,7 +170,7 @@ window.EXPERIENCE = [
       "Diagnosed and resolved production crashes and defects in live banking features, reducing customer-facing downtime on critical flows.",
       "Hardened transfer and payment flows against network failure with retry logic and offline handling, keeping transactions resilient on poor connectivity."
     ],
-    tech: ["Kotlin", "Swift", "Flutter", "Clean Architecture", "Unit & instrumentation tests"]
+    tech: ["Kotlin", "Swift", "Flutter", "Problem-solving", "Code migration", "XML Migration to Jetpack Compose"]
   },
   {
     company: "Avanza Solutions",
@@ -178,11 +178,11 @@ window.EXPERIENCE = [
     period: "May 2023 – Dec 2024",
     location: "Karachi, Pakistan",
     points: [
-      "Designed, built and maintained Flutter applications end-to-end for a banking client, balancing performance, responsiveness and compliance requirements.",
+      "Designed, built and maintained Native Android & iOS as well as Flutter applications end-to-end for a banking client, balancing performance, responsiveness and compliance requirements.",
       "Collaborated with UX/UI, backend and product teams to define technical solutions and ship features on schedule.",
       "Identified and resolved performance bottlenecks, memory leaks and crashes, improving app stability and battery efficiency."
     ],
-    tech: ["Flutter", "Dart", "BLoC", "REST APIs", "Firebase"]
+    tech: ["Android", "IOS", "Flutter", "BLoC", "REST APIs", "Firebase"]
   },
   {
     company: "Sikander Corporation",
@@ -191,11 +191,11 @@ window.EXPERIENCE = [
     location: "Japan · Remote",
     points: [
       "Built Android applications using Kotlin and Flutter, integrating with backend services to deliver a smooth, reliable UI.",
-      "Owned core app infrastructure — services, networking and database integration — across multiple projects.",
+      "Improved core app infrastructure — services, networking and database integration — across multiple projects.",
       "Implemented efficient local storage and wrote unit and instrumentation tests, improving stability and reducing regressions.",
       "Worked with cross-functional teams to design and ship new features that improved user experience."
     ],
-    tech: ["Kotlin", "Android SDK", "Flutter", "Room", "Retrofit", "JUnit", "Riverpod"]
+    tech: ["Kotlin", "Android SDK", "Flutter", "IOS", "Retrofit", "JUnit", "Riverpod"]
   }
 ];
 
@@ -221,7 +221,7 @@ window.SERVICES = [
   { icon: "upload", title: "Play Store & App Store Submission", desc: "Store listings, signing, review guidelines, staged rollouts and release notes." },
   { icon: "wrench", title: "Maintenance & Feature Enhancements", desc: "Taking over existing apps, adding features and keeping dependencies and OS targets current." },
   { icon: "code", title: "Architecture Improvements & Refactoring", desc: "Modularizing and refactoring legacy code toward testable, maintainable architecture — incrementally and safely." },
-  { icon: "refresh", title: "CI/CD Setup & Release Management", desc: "Automated builds, tests and distribution with GitHub Actions, Jenkins or Firebase App Distribution." },
+  { icon: "refresh", title: "CI/CD Setup & Release Management", desc: "Automated builds, tests and distribution with GitHub Actions or Firebase App Distribution." },
   { icon: "support", title: "Post-Delivery Support", desc: "Monitoring, fixes and small improvements after launch, on a scope we agree upfront." }
 ];
 

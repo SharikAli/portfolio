@@ -38,7 +38,7 @@ window.PUBLISHED_APPS = [
       "IBFT and fund-transfer journeys: beneficiary management, validation, transaction limits, receipts and history.",
       "Ticket-based dispute resolution with staged workflows and FCM status notifications.",
     ],
-    tech: ["Kotlin", "Swift", "Flutter", "REST APIs", "FCM", "Offline-first"],
+    // tech: ["Kotlin", "Swift", "Flutter", "REST APIs", "FCM", "Offline-first"],
     links: {
       playStore:
         "https://play.google.com/store/apps/details?id=com.avanza.ambitwizdib&hl=en",
@@ -46,10 +46,10 @@ window.PUBLISHED_APPS = [
     },
     stats: {
       playRating: "4.4",
-      playReviews: "19.1K",
+      // playReviews: "19.1K",
       playDownloads: "500K+",
       iosRating: "4.0",
-      iosRatings: "1.8K",
+      // iosRatings: "1.8K",
     },
   },
   {
@@ -71,7 +71,7 @@ window.PUBLISHED_APPS = [
       "Utility bill payment flows integrated with backend banking APIs.",
       "Production bug fixing, crash resolution and release support.",
     ],
-    tech: ["Kotlin", "Swift", "REST APIs", "Firebase Crashlytics"],
+    // tech: ["Kotlin", "Swift", "REST APIs", "Firebase Crashlytics"],
     links: {
       playStore:
         "https://play.google.com/store/apps/details?id=com.JSBL.bank&hl=en",
@@ -79,10 +79,8 @@ window.PUBLISHED_APPS = [
     },
     stats: {
       playRating: "4.5",
-      playReviews: "24.3K",
       playDownloads: "1M+",
       iosRating: "4.4",
-      iosRatings: "3.9K",
     },
   },
   {
@@ -105,7 +103,7 @@ window.PUBLISHED_APPS = [
       "Card management — activation, PIN setup and virtual card creation.",
       "Complaint and dispute lodging, plus ongoing production maintenance.",
     ],
-    tech: ["Kotlin", "Swift", "Flutter", "Biometrics", "REST APIs"],
+    // tech: ["Kotlin", "Swift", "Flutter", "Biometrics", "REST APIs"],
     links: {
       playStore:
         "https://play.google.com/store/apps/details?id=com.avanza.ambitwizfbl&hl=en",
@@ -113,10 +111,8 @@ window.PUBLISHED_APPS = [
     },
     stats: {
       playRating: "4.1",
-      playReviews: "38.7K",
       playDownloads: "1M+",
       iosRating: "4.3",
-      iosRatings: "6.9K",
     },
   },
   {
@@ -132,7 +128,7 @@ window.PUBLISHED_APPS = [
       "Payment validation and business rules — account checks, transaction limits and balance checks.",
       "Customer support and dispute tickets with role-based stages (Open, In Review, Resolved, Closed).",
     ],
-    tech: ["Kotlin", "Swift", "Flutter", "REST APIs", "FCM"],
+    // tech: ["Kotlin", "Swift", "Flutter", "REST APIs", "FCM"],
     links: {
       playStore:
         "https://play.google.com/store/apps/details?id=pk.com.albaraka.mobileapp&hl=en",
@@ -141,39 +137,42 @@ window.PUBLISHED_APPS = [
     },
     stats: {
       playRating: "3.6",
-      playReviews: "2K",
       playDownloads: "100K+",
       iosRating: "2.6",
-      iosRatings: "167",
     },
   },
-
-  /* ---- ADD MORE PUBLISHED APPS LATER ----------------------------------
-     Copy this block (remove the comment markers) and fill it in.
-     Leave a link "" to hide its button; delete "stats" if not needed.
-
-  ,{
-    name: "[APP NAME]",
-    org: "[COMPANY / CLIENT NAME]",
-    category: "[e.g. Fintech, E-commerce, Delivery]",
-    images: [],                               // up to 3: ["assets/images/projects/app-1.jpg", ...]
-    summary: "[One or two sentences about the app and your role.]",
-    contributions: [
-      "[What you built or improved]",
-      "[Another contribution]"
+  {
+    name: "Chowdeck | Food Delivery",
+    org: "Chowdeck Logistics",
+    category: "Food Delivery",
+    images: [
+      "assets/images/projects/chowdeck-1.webp",
+      "assets/images/projects/chowdeck-2.webp",
+      "assets/images/projects/chowdeck-3.webp",
     ],
-    tech: ["Kotlin", "Flutter"],
+    summary:
+      "Food and grocery delivery app. I contributed to the development and maintenance of ordering, checkout and order-tracking features as part of the delivery team.",
+    // ⚠ REVIEW: these points are based on the app's public feature list.
+    // Edit them so they describe exactly what YOU worked on.
+    contributions: [
+      "Restaurant and menu browsing — listings, cuisine menus, search and filters, plus the Chowstore grocery section.",
+      "Cart, checkout and payment flows with clear payment-status and error handling.",
+      "Live order tracking with rider location on the map and FCM/APNs status notifications.",
+      "Crash and bug fixes, performance improvements and store release support.",
+    ],
+    // tech: ["Kotlin", "Swift", "Flutter", "REST APIs"],
     links: {
-      playStore: "",                          // "https://play.google.com/store/apps/details?id=..."
-      appStore: "",                           // "https://apps.apple.com/app/id..."
-      website: ""                             // optional product website
+      playStore:
+        "https://play.google.com/store/apps/details?id=com.chowdeck.com",
+      appStore:
+        "https://apps.apple.com/us/app/chowdeck-food-groceries/id1530676376",
     },
     stats: {
-      playRating: "", playReviews: "", playDownloads: "",
-      iosRating: "", iosRatings: ""
-    }
-  }
-  ---------------------------------------------------------------------- */
+      playRating: "4.4",
+      playDownloads: "1M+",
+      iosRating: "4.5",
+    },
+  },
 ];
 
 window.FEATURE_WORK = [
@@ -186,7 +185,7 @@ window.FEATURE_WORK = [
       "Request-to-Pay approval/denial with OTP and real-time status.",
       "End-to-end P2M QR payments with full validation and failure handling."
     ],
-    tech: ["Kotlin", "Swift", "Flutter", "OTP", "QR"],
+    // tech: ["Kotlin", "Swift", "Flutter", "OTP", "QR"],
     links: {}
   },
   {
@@ -198,7 +197,7 @@ window.FEATURE_WORK = [
       "Business rules: account validation, limits and balance checks.",
       "Receipts and transfer history."
     ],
-    tech: ["Clean Architecture", "REST APIs", "Offline handling"],
+    // tech: ["Clean Architecture", "REST APIs", "Offline handling"],
     links: {}
   },
   {
@@ -210,7 +209,7 @@ window.FEATURE_WORK = [
       "Role-based workflow: Open → In Review → Resolved → Closed.",
       "Real-time status updates and FCM push notifications."
     ],
-    tech: ["FCM", "Role-based workflows", "REST APIs"],
+    // tech: ["FCM", "Role-based workflows", "REST APIs"],
     links: {}
   },
   {
@@ -222,7 +221,7 @@ window.FEATURE_WORK = [
       "Coaching packages with free trial and upgrade/downgrade flows.",
       "Searchable resource library and in-app chat between educators and coaches."
     ],
-    tech: ["Flutter", "Firebase", "Subscriptions", "Chat"],
+    // tech: ["Flutter", "Firebase", "Subscriptions", "Chat"],
     links: {}
   },
   {
