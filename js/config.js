@@ -22,7 +22,7 @@ window.SITE_CONFIG = {
   email: "sharik.charolia3@gmail.com", // e.g. "name@example.com"
   phone: "+92 3408046575", // shown as text, e.g. "+92 300 0000000"
   whatsapp: "[YOUR WHATSAPP NUMBER]", // digits only with country code, e.g. "923000000000"
-  linkedin: "https://www.linkedin.com/in/sharik-charolia-418ba4245/", // full URL, e.g. "https://www.linkedin.com/in/your-handle"
+  linkedin: "https://www.linkedin.com/in/sharik-ali-418ba4245/", // full URL, e.g. "https://www.linkedin.com/in/your-handle"
   github: "https://github.com/SharikAli", // full URL, e.g. "https://github.com/your-handle"
   preferredContact: "sharik.charolia3@gmail.com",
 
